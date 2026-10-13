@@ -70,12 +70,3 @@ npm run preview
 
     Результат должен проходить проверку валидаторов микроразметки, например, https://webmaster.yandex.ru/tools/microtest/, https://developers.facebook.com/tools/debug/
 ```
-
-## Публикация через SSH
-
-```sh
-git remote set-url origin git@github.com:thesmol/seo-performance.git
-git push origin main:main main:gh-pages
-```
-
-GitHub Pages публикует ветку `gh-pages`.
